@@ -1,0 +1,8 @@
+{:lein {:profile "+cljs"}
+ :nrepl {:port 3002}
+
+ :builds {:app {:target :browser
+                :dev {:modules {:main {:init-fn app.main/dev-init}}
+                      :output-dir "resources/public/js"}
+                :release {:modules {:main {:init-fn app.main/init}}
+                          :output-dir "public/js"}}}}

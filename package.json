@@ -1,0 +1,16 @@
+{
+  "name": "webapp",
+  "version": "0.0.1",
+  "scripts": {
+    "shadow:watch": "shadow-cljs watch app",
+    "shadow:build": "shadow-cljs release app"
+  },
+  "devDependencies": {
+    "shadow-cljs": "2.19.0"
+  },
+  "dependencies": {
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+
+  }
+}
